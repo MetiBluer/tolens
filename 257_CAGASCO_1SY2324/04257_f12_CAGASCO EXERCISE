@@ -1,0 +1,76 @@
+#include<iostream>
+#include<windows.h>
+#include<cstring>
+using namespace std;
+
+void gotoxy(short x, short y)
+{
+	COORD pos ={x,y}
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos)
+
+}
+
+int main()
+{
+	int x; 
+	gotoxy (30,2);
+	cout<<"UNIVERSITY OF SAINT LOUIS";
+	
+	gotoxy (30,3);
+	cout<<"Tuguegarao City, Cagayan";
+	
+	gotoxy (1,6);	
+	cout<<"ID No"
+	
+	gotoxy (1,7);
+	cout<<"Name";
+	
+	gotoxy (1,8);
+	cout<<"Crs/Yr";
+	
+	gotoxy (1,9);
+	cout<<"Crs/SY";
+	
+	#include<iostream>
+#include<windows.h>
+#include<cstring>
+using namespace std;
+
+void gotoxy(short x, short y)
+{
+	COORD pos ={x,y}
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos)
+
+}
+
+int main()
+{
+	int x; 
+	gotoxy (30,2);
+	cout<<"UNIVERSITY OF SAINT LOUIS";
+	
+	gotoxy (30,3);
+	cout<<"Tuguegarao City, Cagayan";
+	
+	gotoxy (1,6);	
+	cout<<"ID No";cin>>IDNo;
+	
+	gotoxy (1,7);
+	cout<<"Name";cin>>Name;
+	
+	gotoxy (1,8);
+	cout<<"Crs/Yr";cin>>Crsyr
+	
+	gotoxy (1,9);
+	cout<<"Crs/SY";cin>>Crsysy
+	
+	gotoxy (33,8)
+	cout<<"Code No";cin>>Code
+	
+	gotoxy (33,8)
+	cout<<"Time/Days";cin>>Time
+}
+}
+	
+	
+}

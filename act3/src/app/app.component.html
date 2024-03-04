@@ -1,0 +1,99 @@
+<ion-app>
+  <ion-split-pane contentId="main-content">
+  <ion-menu contentId="main-content" type="overlay">
+  <ion-content>
+  <ion-list id="inbox-list">
+  <ion-list-header>Activity 3</ion-list-header>
+  <ion-note>hi&#64;user</ion-note>
+
+  <ion-menu-toggle auto-hide="false">
+  <ion-item routerDirection="root" [routerLink]="['/accordion']">
+  Accordion
+  </ion-item>
+  </ion-menu-toggle>
+
+  <ion-menu-toggle auto-hide="false">
+  <ion-item routerDirection="root" [routerLink]="['/alert']">
+    Alert
+  </ion-item>
+  </ion-menu-toggle>
+
+  <ion-menu-toggle auto-hide="false">
+    <ion-item routerDirection="root" [routerLink]="['/button']">
+      Button
+    </ion-item>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle auto-hide="false">
+      <ion-item routerDirection="root" [routerLink]="['/ripple-effect']">
+        Ripple  Effect
+      </ion-item>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle auto-hide="false">
+        <ion-item routerDirection="root" [routerLink]="['/card']">
+          Card
+        </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle auto-hide="false">
+          <ion-item routerDirection="root" [routerLink]="['/grid']">
+            Grid
+          </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle auto-hide="false">
+            <ion-item routerDirection="root" [routerLink]="['/icon']">
+              Icon
+            </ion-item>
+            </ion-menu-toggle>
+            
+            <ion-menu-toggle auto-hide="false">
+              <ion-item routerDirection="root" [routerLink]="['/loading']">
+                Loading
+              </ion-item>
+              </ion-menu-toggle>
+
+              <ion-menu-toggle auto-hide="false">
+                <ion-item routerDirection="root" [routerLink]="['/input']">
+                  Input
+                </ion-item>
+                </ion-menu-toggle>
+
+                <ion-menu-toggle auto-hide="false">
+                  <ion-item routerDirection="root" [routerLink]="['/item']">
+                    Item
+                  </ion-item>
+                  </ion-menu-toggle>
+
+                  <ion-menu-toggle auto-hide="false">
+                    <ion-item routerDirection="root" [routerLink]="['/list']">
+                      List
+                    </ion-item>
+                    </ion-menu-toggle>
+
+                    <ion-menu-toggle auto-hide="false">
+                      <ion-item routerDirection="root" [routerLink]="['/avatar']">
+                        Avatar
+                      </ion-item>
+                      </ion-menu-toggle>
+
+                      <ion-menu-toggle auto-hide="false">
+                        <ion-item routerDirection="root" [routerLink]="['/menu']">
+                          Menu
+                        </ion-item>
+                        </ion-menu-toggle>
+
+                        <ion-menu-toggle auto-hide="false">
+                          <ion-item routerDirection="root" [routerLink]="['/popover']">
+                            Popover
+                          </ion-item>
+                          </ion-menu-toggle>
+
+
+  </ion-list>
+  </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+  </ion-app>
